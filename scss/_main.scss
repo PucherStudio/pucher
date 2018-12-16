@@ -144,18 +144,6 @@ main {
   }
 }
 
-footer::before {
-  content: '';
-  padding-bottom: 70%;
-  margin-left: -10%;
-  width: 200%;
-  left: 0;
-  bottom: 0;
-  background: #203043;
-  position: absolute;
-  transform: rotate(-5deg);
-  z-index: -10000;
-}
 
 footer {
   color: #ffffff;

@@ -43,6 +43,13 @@ html, body {
   text-transform: uppercase;
 }
 
+.rect {
+  position: absolute;
+  z-index: -10000;
+  width: 100%;
+  bottom: 0;
+}
+
 header.header nav {
   padding-top: 15px;
 }
@@ -290,20 +297,6 @@ main .contact .inner h2 {
   line-height: 51px;
   font-size: 48px;
   margin: 0;
-}
-
-footer::before {
-  content: '';
-  padding-bottom: 70%;
-  margin-left: -10%;
-  width: 200%;
-  left: 0;
-  bottom: 0;
-  background: #203043;
-  position: absolute;
-  -webkit-transform: rotate(-5deg);
-          transform: rotate(-5deg);
-  z-index: -10000;
 }
 
 footer {
