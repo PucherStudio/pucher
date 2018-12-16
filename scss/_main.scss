@@ -144,12 +144,26 @@ main {
   }
 }
 
+footer::before {
+  content: '';
+  padding-bottom: 70%;
+  margin-left: -10%;
+  width: 200%;
+  left: 0;
+  bottom: 0;
+  background: #203043;
+  position: absolute;
+  transform: rotate(-5deg);
+  z-index: -10000;
+}
+
 footer {
   color: #ffffff;
   border-top: 4px solid #ffffff;
   margin-top: 15vh;
   padding-top: 40px;
   padding-bottom: 5vh;
+  overflow: hidden;
 
   .name{
     width: 30vw;
@@ -218,14 +232,4 @@ footer {
       color: #46596F;
     }
   }
-}
-
-
-.rect {
-  position: absolute;
-  z-index: -10000;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  width: 100%;
 }
