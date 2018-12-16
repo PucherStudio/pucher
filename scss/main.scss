@@ -1,0 +1,30 @@
+// Global Styles
+html, body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto Mono', monospace;
+  position: relative;
+}
+
+.page-wrapper {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.CTA {
+  border: none;
+  background: #FB00D2;
+  width: 145px;
+  height: 44px;
+  font-family: 'Roboto Mono';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  color: #FFFFFF;
+  text-transform: uppercase;
+}
+
+@import 'header';
+@import 'main';
